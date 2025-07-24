@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/lessons" element={<Lessons />} />
         <Route path="/vocab" element={<Vocab />} />
-        {/* Dynamic route with URL parameter */}
+        {/* Dynamic route with URL pa rameter */}
         <Route path="/lesson/:lessonId" element={<Lesson />} />
       </Routes>
       <Menu />
